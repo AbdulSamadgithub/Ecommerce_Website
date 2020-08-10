@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  width: fit-content;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: left;
+}
+form > label {
+  font-size: large;
+}
+form > input {
+  background-color: lavender;
+  padding: 5px;
+  font-size: large;
+  width: 100%;
+}
+.submit {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="../styles/form.css" />
+  </head>
+  <body>
+    <form method="POST" action="../php/login.php">
+      <label for="fname">First name: </label>
+      <input type="text" placeholder="FirstName" name="firstname" required />
+      <br />
+      <br />
+      <label for="lastname">Last Name: </label
+      ><input type="text" name="lastname" required /> <br />
+      <br />
+      Email: <input type="text" name="email" required /> <br />
+      <br />
+      Password:
+      <input type="password" name="password" required />
+      <br />
+      <br />
+      <input class="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>

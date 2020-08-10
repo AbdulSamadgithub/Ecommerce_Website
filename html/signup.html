@@ -25,26 +25,21 @@
         <a href="./signup.html" style="float: right;">Signup</a>
       </div>
       <div class="middlearea">
-        <!-- gallery container -->
+        <!-- Form container -->
         <div class="gallery">
           <div class="cardone">
             <div class="product">
-              <!-- Form Container -->
-              <form method="POST" action="../php/buy.php">
-                YourName: <input type="text" placeholder="FirstName" name="yourname" required />
+              <!-- Form -->
+              <form method="POST" action="../php/signup.php">
+                FirstName: <input type="text" placeholder="FirstName" name="firstname" required />
                 <br />
                 <br />
-                Fathername:<input type="text" name="fathername" required /> <br />
-                <br />
-                Product ID:<input type="text" name="productid" required /> <br />
+                lastname:<input type="text" name="lastname" required /> <br />
                 <br />
                 Email: <input type="text" name="email" required /> <br />
                 <br />
-                Phone:
-                <input type="number" name="phone" required />
-                <br> <br>
-                CNIC:
-                <input type="number" name="cnic" required />
+                Password:
+                <input type="password" name="password" required />
                 <br />
                 <br />
                 <input class="submit" type="submit" value="submit" />
